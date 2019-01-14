@@ -1,0 +1,79 @@
+body {
+    font-size: 125%;
+    background-image: url("https://img.freepik.com/free-photo/smooth-dark-blue-with-black-vignette-studio-well-use-as-background-business-report-digital-website-template_1258-748.jpg?size=338&ext=jpg");
+    color: white;
+    font-family: 'Inconsolata', monospace;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+.card {
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color:gray;
+    border-color: black;
+    border-width: thick;
+  
+}
+  .jumbotron {
+    display: inline-block;
+    padding: 5px;
+    color: black;
+    font-family: 'Audiowide', cursive;
+    width: 700px;
+    margin-top: 20px;
+}
+  .card > label {
+    border: 2px solid white;
+}
+  input {
+    margin-left: 5px;
+}
+.your-score {
+    text-align: center;
+    font-weight: bold;
+    font-size: 150%;
+  }
+  
+  .quiz-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .carousel-indicators {
+    position: relative;
+    margin-top: 15px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    color: green;
+  }
+ .copyright {
+   display: flex;
+   justify-content: center;
+   width: 400px;
+}
+ .copyname {
+   font-family: 'Satisfy', cursive;
+   font-weight: bold;
+}
+ @media (max-width: 900px) {
+   .container {
+     width: 500px;
+}
+   .jumbotron {
+       width: 400px;
+    }
+}
+   @media (max-width: 480px) {
+       .container {
+         width: 250px;
+    }
+       .jumbotron {
+         width: 400px;
+    }
+} 
+     #quiz{
+         color:black;
+     }     

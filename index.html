@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/script.js">  </script>
+    <title>JAVASCRIPT QUIZ BOARD</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md col-sm col-xs">
+         
+                <div class="jumbotron">
+                    <h1>JAVASCRIPT QUIZ BOARD</h1>
+                    <p>Welcome to the JavaScript Quiz. This quiz will test your knowledge in JavaScript.</p>
+                </div> 
+                <form>
+                           
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+               
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="d-block w-50 question card "> 
+                                   <label for="js1">1. What is JavaScript?</label>
+                                   <div>
+                                        <input type="radio" id="framework" name="js1" value="0">
+                                        <label for="framework">A framework</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="language" name="js1" value="20">
+                                        <label for="language">A programming language</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="library" name="js1" value="0">
+                                        <label for="library">A library</label>
+                                    </div>
+                                </div> 
+                            </div> 
+                            <div class="carousel-item"> 
+                                <div class="question card d-block w-50"> 
+                                  <label for="js2">2. Inside which HTML element do we put the JavaScript?</label>
+                                    <div>
+                                        <input type="radio" id="script" name="js2" value="20">
+                                       <label for="script">&lt;script&gt;</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="javascript" name="js2" value="0">
+                                        <label for="javascript">&lt;javascript&gt;</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="scripting" name="js2" value="0">
+                                        <label for="scripting">&lt;scripting&gt;</label>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="question card d-block w-50"> 
+                                  <label for="js3">3. Where is the correct place to insert a JavaScript?</label>
+                                  <div>
+                                      <input type="radio" id="head-section" name="js3" value="0">
+                                      <label for="head-section">The &lt;head&gt; section</label>
+                                   </div>
+                                    <div>
+                                        <input type="radio" id="both-section" name="js3" value="20">
+                                        <label for="both-section">Both the &lt;head&gt; and the &lt;body&gt; are correct</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="body-section" name="js3" value="0">
+                                        <label for="body-section">The &lt;body&gt; section</label>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="carousel-item"> 
+                                <div class="question card d-block w-50"> 
+                                  <label for="js4">4. How do you call a function named "myFunction"?</label>
+                                  <div>
+                                        <input type="radio" id="function-one" name="js4" value="20">
+                                        <label for="function-one">myFunction();</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="function-two" name="js4" value="0">
+                                        <label for="function-two">call myFunction();</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="function-three" name="js4" value="0">
+                                        <label for="function-three">call function myFunction();</label>
+                                    </div>
+                                </div> 
+                            </div> 
+                            <div class="carousel-item"> 
+                                <div class="question card d-block w-50"> 
+                                  <label for="js5">5. What is the correct way to write a JavaScript array?</label>
+                                  <div>
+                                       <input type="radio" id="array-one" name="js5" value="0">
+                                       <label for="array-one">var colors = "red", "green", "blue";</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="array-two" name="js5" value="0">
+                                        <label for="array-two">var colors = (1:"red", 2:"green", 3:"blue");</label>
+                                    </div>
+                                    <div>
+                                        <input type="radio" id="array-three" name="js5" value="20">
+                                        <label for="array-three">var colors = ["red", "green", "blue"];</label>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div> 
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                        </ol>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div  class="quiz-buttons">
+                        <button id="quiz" class="bg-success" type="submit" name="button">SUBMIT!</button>
+                        <button id="quiz" class="bg-info" type="button" name="button" onclick="reload();">RELOAD</button>
+                    </div>
+                   </form>
+                   <div class="card your-score">
+                       <div id="message">     </div>
+                       <div id="display">     </div>
+                       <div id="remark">     </div>
+                   </div>
+                   <p class="copyright jumbotron">Copyright© 2018 <span class="copyname">Berthe</span>  </p>
+               </div> 
+           </div>    
+       </div>      
+    </body>
+</html>
