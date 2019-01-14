@@ -65,7 +65,7 @@ body {
    .jumbotron {
        width: 400px;
     }
-} 
+}  
    @media (max-width: 480px) {
        .container {
          width: 250px;
