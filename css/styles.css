@@ -30,7 +30,7 @@ body {
   input {
     margin-left: 5px;
 }
-.your-score {
+.your-score { 
     text-align: center;
     font-weight: bold;
     font-size: 150%;
