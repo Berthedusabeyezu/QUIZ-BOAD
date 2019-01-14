@@ -55,7 +55,7 @@ body {
    width: 400px;
 }
  .copyname {
-   font-family: 'Satisfy', cursive; 
+   font-family: 'Satisfy', cursive;  
    font-weight: bold;
 }
  @media (max-width: 900px) {
